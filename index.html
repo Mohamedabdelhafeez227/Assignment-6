@@ -1,0 +1,711 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Games Website</title>
+    <!-- Google Font (Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Days+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome للـ Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- الـ Navbar الثابت أعلى الشاشة -->
+    <header class="navbar">
+      <div class="container nav-container">
+        <!-- اللوجو -->
+        <a href="#" class="logo">
+          <i class="fa-solid fa-gamepad logo-icon"></i>
+          <span>GameArena</span>
+        </a>
+
+        <!-- القائمة الرابطة -->
+        <nav class="nav-links">
+          <a href="#" class="active">Home</a>
+          <a href="#">OUR GAMES</a>
+          <a href="#">What We Do</a>
+          <a href="#">Our Team</a>
+          <a href="#">Contact Us</a>
+        </nav>
+
+        <!-- الأيقونات وزرار Sign In -->
+        <div class="nav-actions">
+          <button class="icon-btn" aria-label="Notifications">
+            <i class="fa-regular fa-bell"></i>
+          </button>
+          <button class="icon-btn" aria-label="Messages">
+            <i class="fa-regular fa-comment-dots"></i>
+          </button>
+          <a href="#" class="btn-signin">Sign In</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- سيكشن الـ Hero -->
+    <section class="hero-section">
+      <div class="container hero-container">
+        <!-- الجزء الأيسر: النصوص والأزرار -->
+        <div class="hero-content">
+          <h1 class="hero-title">
+            THE ULTIMATE <span style="color: #cbfe1c">GAMING</span> EXPERIENCE
+          </h1>
+          <p class="hero-description">
+            Join millions of gamers worldwide in the most competitive eSports
+            tournaments. Experience next-level gaming with cutting-edge
+            technology and endless possibilities.
+          </p>
+          <div class="hero-buttons">
+            <a href="#" class="btn btn-lime">Start Gaming Now</a>
+            <a href="#" class="btn btn-outline">Watch Tournaments</a>
+          </div>
+        </div>
+
+        <!-- الجزء الأيمن: الصورة والكارت الصغير -->
+        <div class="hero-image-wrapper">
+          <div class="image-card">
+            <!-- الصورة الرئيسية -->
+            <img src="imges/hero-img-C0b4IWtS.png" alt="Gaming Setup" />
+
+            <!-- الكارت الفلوتنج (الكأس و 2.5M+) -->
+            <div class="stat-badge">
+              <div class="stat-icon">
+                <i class="fa-solid fa-trophy"></i>
+              </div>
+              <div class="stat-info">
+                <span class="stat-label">Active Players</span>
+                <span class="stat-number">2.5M+</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="games-section" id="our-games">
+      <div class="container">
+        <!-- عنوان السيكشن -->
+        <div class="section-header">
+          <div class="subtitle-wrapper">
+            <span class="subtitle-line"></span>
+            <span class="section-subtitle">OUR GAMES</span>
+            <span class="subtitle-line"></span>
+          </div>
+          <h2 class="section-title">Our Latest Games</h2>
+        </div>
+
+        <!-- كروت الألعاب (السلايدر) -->
+        <div class="games-slider">
+          <!-- المجموعة الأولى (3 ألعاب) -->
+          <div class="games-group active" id="group-1">
+            <!-- لعبة 1 -->
+            <div class="game-card">
+              <img src="imges/latest-games-1-CfV33bjK.png" alt="" />
+              <div class="card-overlay">
+                <div class="card-badges">
+                  <span class="badge"
+                    ><i class="fa-solid fa-gamepad"></i> ADVENTURE</span
+                  >
+                  <span class="badge"
+                    ><i class="fa-solid fa-user-group"></i> MULTIPLAYER</span
+                  >
+                </div>
+                <h3 class="game-title">Alien Companions</h3>
+              </div>
+            </div>
+
+            <!-- لعبة 2 -->
+            <div class="game-card">
+              <img
+                src="imges/latest-games-2-DcGt1MOH.png"
+                alt="Cyber Run 2099"
+              />
+              <div class="card-overlay">
+                <div class="card-badges">
+                  <span class="badge"
+                    ><i class="fa-solid fa-flag-checkered"></i> RACING</span
+                  >
+                  <span class="badge"
+                    ><i class="fa-solid fa-bolt"></i> SCI-FI</span
+                  >
+                </div>
+                <h3 class="game-title">Cyber Run 2099</h3>
+              </div>
+            </div>
+
+            <!-- لعبة 3 -->
+            <div class="game-card">
+              <img
+                src="imges/latest-games-3-3PuaZ95E.png"
+                alt="The Legend of Zelda"
+              />
+              <div class="card-overlay">
+                <div class="card-badges">
+                  <span class="badge"
+                    ><i class="fa-solid fa-gamepad"></i> ACTION</span
+                  >
+                  <span class="badge"
+                    ><i class="fa-solid fa-gear"></i> GEFORCE</span
+                  >
+                </div>
+                <h3 class="game-title">
+                  The Legend of Zelda: Tears of the Kingdom
+                </h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- المجموعة الثانية (3 ألعاب إضافية) -->
+          <div class="games-group" id="group-2">
+            <!-- لعبة 4 -->
+            <div class="game-card">
+              <img
+                src="imges/latest-games-4-DCWGKdgP.png"
+                alt="Aetheria Chronicles"
+              />
+              <div class="card-overlay">
+                <div class="card-badges">
+                  <span class="badge"
+                    ><i class="fa-solid fa-shield-halved"></i> RPG</span
+                  >
+                  <span class="badge"
+                    ><i class="fa-solid fa-hat-wizard"></i> FANTASY</span
+                  >
+                </div>
+                <h3 class="game-title">Aetheria Chronicles</h3>
+              </div>
+            </div>
+
+            <!-- لعبة 5 -->
+            <div class="game-card">
+              <img
+                src="imges/latest-games-5-D0uhM4CW.png"
+                alt="Warfront Protocol"
+              />
+              <div class="card-overlay">
+                <div class="card-badges">
+                  <span class="badge"
+                    ><i class="fa-solid fa-crosshair"></i> SHOOTER</span
+                  >
+                  <span class="badge"
+                    ><i class="fa-solid fa-users"></i> CO-OP</span
+                  >
+                </div>
+                <h3 class="game-title">Warfront Protocol</h3>
+              </div>
+            </div>
+
+            <!-- لعبة 6 -->
+            <div class="game-card">
+              <img src="imges/latest-games-6-CJaIm3nW.png" alt="Shot Striker" />
+              <div class="card-overlay">
+                <div class="card-badges">
+                  <span class="badge"
+                    ><i class="fa-solid fa-football"></i> FOOTBALL</span
+                  >
+                  <span class="badge"
+                    ><i class="fa-solid fa-star"></i> FANTASY</span
+                  >
+                </div>
+                <h3 class="game-title">Shot Striker</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="games-controls">
+          <button
+            class="arrow-btn left-arrow"
+            id="prevBtn"
+            aria-label="Previous Games"
+          >
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <button
+            class="arrow-btn right-arrow"
+            id="nextBtn"
+            aria-label="Next Games"
+          >
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+          <a href="#" class="btn-view-all">VIEW ALL GAMES</a>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- ==================== SECTION 3: WHAT WE DO ==================== -->
+<!-- ==================== SECTION 1: WHAT WE DO ==================== -->
+<section class="what-we-do">
+  <div class="wwd-subtitle-wrapper">
+    <div class="wwd-line-left"></div>
+    <span class="wwd-subtitle-text">WHAT WE DO</span>
+    <div class="wwd-line-right"></div>
+  </div>
+
+  <h2 class="wwd-title">
+    More Than Just Games<br>
+    We Build <span class="wwd-accent-text">Interactive</span> Journeys
+  </h2>
+
+  <div class="wwd-cards-grid">
+    <!-- 1. PC Game -->
+    <div class="wwd-card wwd-card-dark">
+      <div class="wwd-icon-box">
+        <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+      </div>
+      <h3>PC Game<br>Development</h3>
+    </div>
+
+    <!-- 2. Mobile Game -->
+    <div class="wwd-card wwd-card-dark">
+      <div class="wwd-icon-box">
+        <svg viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+      </div>
+      <h3>Mobile Game<br>Development</h3>
+    </div>
+
+    <!-- 3. Controllers (بربط صورتك الأولى) -->
+    <div class="wwd-card wwd-card-yellow">
+      <img src="imges/what-we-do-1-DuZnkwGW.png" alt="Controllers">
+    </div>
+
+    <!-- 4. AR/VR Solutions -->
+    <div class="wwd-card wwd-card-dark">
+      <div class="wwd-icon-box">
+        <svg viewBox="0 0 24 24"><path d="M2 12a5 5 0 0 0 5 5h10a5 5 0 0 0 5-5V9a5 5 0 0 0-5-5H7a5 5 0 0 0-5 5z"/><circle cx="7.5" cy="11.5" r="1.5"/><circle cx="16.5" cy="11.5" r="1.5"/></svg>
+      </div>
+      <h3>AR/VR<br>Solutions</h3>
+    </div>
+
+    <!-- 5. AR/VR Design -->
+    <div class="wwd-card wwd-card-dark">
+      <div class="wwd-icon-box">
+        <svg viewBox="0 0 24 24"><path d="M6 12h4m-2-2v4"/><circle cx="17" cy="10" r="1" fill="#d2ff00"/><circle cx="15" cy="13" r="1" fill="#d2ff00"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg>
+      </div>
+      <h3>AR/VR<br>Design</h3>
+    </div>
+
+    <!-- 6. Mascot (بربط صورتك الثانية) -->
+    <div class="wwd-card wwd-card-yellow">
+      <img src="imges/what-we-do-2-DVAo6agz.png" alt="Mascot">
+    </div>
+
+    <!-- 7. PS4 Game -->
+    <div class="wwd-card wwd-card-dark">
+      <div class="wwd-icon-box">
+        <svg viewBox="0 0 24 24"><path d="M2 17.5L10 16v-8L2 9.5zM22 17.5L14 16v-8l8 1.5z"/><path d="M10 16l4 1.5M10 8l4 1.5"/></svg>
+      </div>
+      <h3>PS4 Game<br>Development</h3>
+    </div>
+
+    <!-- 8. 3D Modelings -->
+    <div class="wwd-card wwd-card-dark">
+      <div class="wwd-icon-box">
+        <svg viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+      </div>
+      <h3>3D<br>Modelings</h3>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== SECTION 2: LOGO TICKER ==================== -->
+<section class="logo-ticker-section">
+  <div class="ticker-glowing-line"></div>
+  <div class="ticker-center-glow"></div>
+
+  <div class="ticker-wrapper">
+    <!-- الشريط الأول: حركة لليسار (شمل 10 لوجوهات مع تكرار مضاعف) -->
+    <div class="ticker-track ticker-move-left">
+      <!-- المجموعة الأصلية (10 لوجوهات) -->
+      <div class="ticker-logo-card"><img src="imges/logo-1-ByM-Sex8.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-2-0gIktwSm.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-3-CczztP90.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-4-CqgtpirC.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-5-DFypfU0k.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-6-DcGD8G7v.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-7-DSTdzFnp.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-8-BuH3qQns.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-9-btJ2eZYX.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-10-DlvZwrGv.jpg" alt="Logo"></div>
+      <!-- التكرار 1 -->
+      <div class="ticker-logo-card"><img src="imges/logo-1-ByM-Sex8.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-2-0gIktwSm.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-3-CczztP90.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-4-CqgtpirC.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-5-DFypfU0k.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-6-DcGD8G7v.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-7-DSTdzFnp.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-8-BuH3qQns.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-9-btJ2eZYX.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-10-DlvZwrGv.jpg" alt="Logo"></div>
+      <!-- التكرار 2 -->
+      <div class="ticker-logo-card"><img src="imges/logo-1-ByM-Sex8.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-2-0gIktwSm.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-3-CczztP90.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-4-CqgtpirC.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-5-DFypfU0k.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-6-DcGD8G7v.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-7-DSTdzFnp.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-8-BuH3qQns.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-9-btJ2eZYX.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-10-DlvZwrGv.jpg" alt="Logo"></div>
+    </div>
+
+    <!-- الشريط الثاني: حركة لليمين -->
+    <div class="ticker-track ticker-move-right">
+      <!-- المجموعة الأصلية (10 لوجوهات) -->
+      <div class="ticker-logo-card"><img src="imges/logo-1-ByM-Sex8.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-2-0gIktwSm.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-3-CczztP90.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-4-CqgtpirC.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-5-DFypfU0k.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-6-DcGD8G7v.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-7-DSTdzFnp.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-8-BuH3qQns.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-9-btJ2eZYX.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-10-DlvZwrGv.jpg" alt="Logo"></div>
+      <!-- التكرار 1 -->
+      <div class="ticker-logo-card"><img src="imges/logo-1-ByM-Sex8.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-2-0gIktwSm.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-3-CczztP90.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-4-CqgtpirC.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-5-DFypfU0k.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-6-DcGD8G7v.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-7-DSTdzFnp.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-8-BuH3qQns.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-9-btJ2eZYX.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-10-DlvZwrGv.jpg" alt="Logo"></div>
+      <!-- التكرار 2 -->
+      <div class="ticker-logo-card"><img src="imges/logo-1-ByM-Sex8.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-2-0gIktwSm.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-3-CczztP90.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-4-CqgtpirC.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-5-DFypfU0k.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-6-DcGD8G7v.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-7-DSTdzFnp.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-8-BuH3qQns.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-9-btJ2eZYX.jpg" alt="Logo"></div>
+      <div class="ticker-logo-card"><img src="imges/logo-10-DlvZwrGv.jpg" alt="Logo"></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== SECTION 3: OUR TEAM ==================== -->
+<section class="our-team-section">
+  <div class="team-subtitle-wrapper">
+    <div class="team-line-left"></div>
+    <span class="team-subtitle-text">OUR TEAM</span>
+    <div class="team-line-right"></div>
+  </div>
+
+  <h2 class="team-title">Our Best Team Members</h2>
+  <p class="team-desc">Meet the professional gamers and experts behind our success</p>
+
+  <div class="team-grid">
+    <!-- Card 1 -->
+    <div class="team-card">
+      <img class="team-img-bw" src="imges/avatar-1-Bk0fx3lX.png" alt="Alex Chen">
+      <div class="team-color-reveal">
+        <img class="team-img-color" src="imges/avatar-1-Bk0fx3lX.png" alt="Alex Chen">
+      </div>
+      <div class="team-card-overlay">
+        <div class="team-info-left">
+          <h3 class="team-member-name">Alex "Phantom"<br>Chen</h3>
+          <p class="team-member-role">Pro Player - VALORANT</p>
+          <p class="team-member-achievement">World Champion 2023</p>
+        </div>
+        <div class="team-side-alias">PHANTOM</div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="team-card">
+      <img class="team-img-bw" src="imges/avatar-2-DSM5R69_.png" alt="Ali Ahmed">
+      <div class="team-color-reveal">
+        <img class="team-img-color" src="imges/avatar-2-DSM5R69_.png" alt="Ali Ahmed">
+      </div>
+      <div class="team-card-overlay">
+        <div class="team-info-left">
+          <h3 class="team-member-name">Ali "Nova"<br>Ahmed</h3>
+          <p class="team-member-role">Pro Player - League of Legends</p>
+          <p class="team-member-achievement">MVP 2023 Season</p>
+        </div>
+        <div class="team-side-alias">NOVA</div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="team-card">
+      <img class="team-img-bw" src="imges/avatar-3-CIsh2V2J.png" alt="Marcus Rodriguez">
+      <div class="team-color-reveal">
+        <img class="team-img-color" src="imges/avatar-3-CIsh2V2J.png" alt="Marcus Rodriguez">
+      </div>
+      <div class="team-card-overlay">
+        <div class="team-info-left">
+          <h3 class="team-member-name">Marcus "Viper"<br>Rodriguez</h3>
+          <p class="team-member-role">Head Coach - CS:GO</p>
+          <p class="team-member-achievement">5x Major Winner</p>
+        </div>
+        <div class="team-side-alias">VIPER</div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="team-card">
+      <img class="team-img-bw" src="imges/avatar-4-BCbP093U.png" alt="Seif Usama">
+      <div class="team-color-reveal">
+        <img class="team-img-color" src="imges/avatar-4-BCbP093U.png" alt="Seif Usama">
+      </div>
+      <div class="team-card-overlay">
+        <div class="team-info-left">
+          <h3 class="team-member-name">Seif "Saga"<br>Usama</h3>
+          <p class="team-member-role">Strategic Analyst</p>
+          <p class="team-member-achievement">Data Science Expert</p>
+        </div>
+        <div class="team-side-alias">SAGA</div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="team-card">
+      <img class="team-img-bw" src="imges/avatar-5-CKJm2Bjf.png" alt="Jake Wilson">
+      <div class="team-color-reveal">
+        <img class="team-img-color" src="imges/avatar-5-CKJm2Bjf.png" alt="Jake Wilson">
+      </div>
+      <div class="team-card-overlay">
+        <div class="team-info-left">
+          <h3 class="team-member-name">Jake "Storm"<br>Wilson</h3>
+          <p class="team-member-role">Pro Player - Apex Legends</p>
+          <p class="team-member-achievement">Rising Star 2023</p>
+        </div>
+        <div class="team-side-alias">STORM</div>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="team-card">
+      <img class="team-img-bw" src="imges/avatar-6-BC4VdJS3.png" alt="David Park">
+      <div class="team-color-reveal">
+        <img class="team-img-color" src="imges/avatar-6-BC4VdJS3.png" alt="David Park">
+      </div>
+      <div class="team-card-overlay">
+        <div class="team-info-left">
+          <h3 class="team-member-name">David "Titan"<br>Park</h3>
+          <p class="team-member-role">Team Captain - Dota 2</p>
+          <p class="team-member-achievement">The International Winner</p>
+        </div>
+        <div class="team-side-alias">TITAN</div>
+      </div>
+    </div>
+
+    <!-- Card 7 -->
+    <div class="team-card">
+      <img class="team-img-bw" src="imges/avatar-7-B1LKlfbK.png" alt="Khaled Ali">
+      <div class="team-color-reveal">
+        <img class="team-img-color" src="imges/avatar-7-B1LKlfbK.png" alt="Khaled Ali">
+      </div>
+      <div class="team-card-overlay">
+        <div class="team-info-left">
+          <h3 class="team-member-name">Khaled "Phoenix"<br>Ali</h3>
+          <p class="team-member-role">Content Creator</p>
+          <p class="team-member-achievement">2M+ Followers</p>
+        </div>
+        <div class="team-side-alias">PHOENIX</div>
+      </div>
+    </div>
+
+    <!-- Card 8 -->
+    <div class="team-card">
+      <img class="team-img-bw" src="imges/avatar-8-DlhfYIx6.png" alt="Ryan Miller">
+      <div class="team-color-reveal">
+        <img class="team-img-color" src="imges/avatar-8-DlhfYIx6.png" alt="Ryan Miller">
+      </div>
+      <div class="team-card-overlay">
+        <div class="team-info-left">
+          <h3 class="team-member-name">Ryan "Ghost"<br>Miller</h3>
+          <p class="team-member-role">Team Manager</p>
+          <p class="team-member-achievement">Operations Lead</p>
+        </div>
+        <div class="team-side-alias">GHOST</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ==================== SECTION: CONTACT US ==================== -->
+<section class="contact-section">
+  
+  <!-- Header Subtitle with Tapered Lines -->
+  <div class="contact-subtitle-wrapper">
+    <div class="contact-line-left"></div>
+    <span class="contact-subtitle-text">CONTACT US</span>
+    <div class="contact-line-right"></div>
+  </div>
+
+  <!-- Section Titles -->
+  <h2 class="contact-main-title">Get In Touch</h2>
+  <p class="contact-main-desc">Have questions or need support? We're here to help!</p>
+
+  <!-- Contact Grid Layout -->
+  <div class="contact-grid">
+
+    <!-- LEFT COLUMN: Contact Cards & Socials -->
+    <div class="contact-left-col">
+      
+      <!-- Card 1: Location -->
+      <div class="contact-info-card">
+        <div class="contact-icon-circle">
+          <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        </div>
+        <div class="contact-info-text">
+          <h3>Our Location</h3>
+          <p>123 Gaming Street, Esports City, EC 12345</p>
+        </div>
+      </div>
+
+      <!-- Card 2: Phone -->
+      <div class="contact-info-card">
+        <div class="contact-icon-circle">
+          <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        </div>
+        <div class="contact-info-text">
+          <h3>Phone Number</h3>
+          <p>+1 (555) 123-4567</p>
+        </div>
+      </div>
+
+      <!-- Card 3: Email -->
+      <div class="contact-info-card">
+        <div class="contact-icon-circle">
+          <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        </div>
+        <div class="contact-info-text">
+          <h3>Email Address</h3>
+          <p>contact@gamearena.com</p>
+        </div>
+      </div>
+
+      <!-- Card 4: Yellow Community Card -->
+      <div class="contact-community-card">
+        <h3>Join Our Community</h3>
+        <p>Connect with us on social media for the latest updates</p>
+        
+        <div class="contact-social-icons">
+          <!-- Discord -->
+          <a href="#" class="contact-social-btn" title="Discord">
+            <svg viewBox="0 0 24 24"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.893.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+          </a>
+
+          <!-- X / Twitter -->
+          <a href="#" class="contact-social-btn" title="X">
+            <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+
+          <!-- Instagram -->
+          <a href="#" class="contact-social-btn" title="Instagram">
+            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+
+          <!-- YouTube -->
+          <a href="#" class="contact-social-btn" title="YouTube">
+            <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT COLUMN: Message Form -->
+    <div class="contact-form-container">
+      <h3 class="contact-form-title">Send us a Message</h3>
+
+      <form class="contact-form" onsubmit="event.preventDefault();">
+        <!-- Row 1: Name Inputs -->
+        <div class="contact-form-row">
+          <div class="contact-form-group">
+            <label>First Name</label>
+            <input type="text" placeholder="Your first name" required>
+          </div>
+          <div class="contact-form-group">
+            <label>Last Name</label>
+            <input type="text" placeholder="Your last name" required>
+          </div>
+        </div>
+
+        <!-- Row 2: Email -->
+        <div class="contact-form-group">
+          <label>Email Address</label>
+          <input type="email" placeholder="your.email@example.com" required>
+        </div>
+
+        <!-- Row 3: Subject Dropdown -->
+        <div class="contact-form-group">
+          <label>Subject</label>
+          <div class="contact-select-wrapper">
+            <select>
+              <option>General Inquiry</option>
+              <option>Game Development</option>
+              <option>AR/VR Solutions</option>
+              <option>Partnership & Sponsorship</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Row 4: Message Textarea -->
+        <div class="contact-form-group">
+          <label>Message</label>
+          <textarea rows="4" placeholder="Tell us how we can help you..." required></textarea>
+        </div>
+
+        <!-- Row 5: Newsletter Checkbox -->
+        <div class="contact-checkbox-group">
+          <input type="checkbox" id="newsletter-check">
+          <label for="newsletter-check">Subscribe to our newsletter for gaming updates</label>
+        </div>
+
+        <!-- Row 6: Submit Button -->
+        <button type="submit" class="contact-submit-btn">
+          <span>Send Message</span>
+          <svg viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+        </button>
+      </form>
+
+      <!-- Bottom Form Stats -->
+      <div class="contact-stats-row">
+        <div class="contact-stat-item">
+          <span class="contact-stat-num">24/7</span>
+          <span class="contact-stat-lbl">Support Available</span>
+        </div>
+        <div class="contact-stat-item">
+          <span class="contact-stat-num">&lt;1hr</span>
+          <span class="contact-stat-lbl">Average Response</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+    <script src="main.js"></script>
+  </body>
+</html>
